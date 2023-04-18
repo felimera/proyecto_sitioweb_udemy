@@ -156,6 +156,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    transition: 600ms all ease-in-out;
+}
+
+header.transparente {
+    background-color: transparent;
+    box-shadow: none;
 }
 
 header img {
@@ -170,8 +176,22 @@ header nav a {
     transition: 300ms ease-in-out all;
 }
 
+header.transparente nav a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
 header nav a.activo,
 header nav a:hover {
     color: #a97c50;
     font-weight: bold;
+}
+
+header.transparente nav a.activo,
+header.transparente nav a:hover {
+    color: white;
+}
+
+/* Layout */
+.primera {
+    margin-top: 100vh;
 }
