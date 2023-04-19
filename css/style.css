@@ -289,6 +289,12 @@ header.transparente nav a:hover {
     margin-top: 100vh;
 }
 
+#pr {
+    display: block;
+    margin-top: -90px;
+    padding-bottom: 90px;
+}
+
 .fila {
     display: flex;
     padding: 2rem 1rem;
