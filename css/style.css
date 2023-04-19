@@ -344,3 +344,25 @@ header.transparente nav a:hover {
         width: 100%;
     }
 }
+
+/* Parallax */
+.fila.parallax {
+    background-image: url('../img/property5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem 2rem;
+}
+
+.fila.parallax div {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2rem;
+
+}
+
+.fila.parallax div p {
+    font-size: 1.5rem;
+    color: #a97c50;
+    text-align: center;
+}
