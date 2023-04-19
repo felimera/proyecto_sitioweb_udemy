@@ -226,18 +226,16 @@ header.transparente nav a:hover {
     transform: translateY(-8px) rotateZ(-45deg);
 }
 
-@media(max-width: 620px)
-{
-    #burger
-    {
+@media(max-width: 620px) {
+    #burger {
         display: block;
     }
-    header
-    {
+
+    header {
         justify-content: flex-end;
     }
-    header nav 
-    {
+
+    header nav {
         display: none;
     }
 }
