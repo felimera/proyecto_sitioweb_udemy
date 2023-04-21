@@ -578,3 +578,50 @@ footer .copyrigth {
     font-size: 0.8rem;
     text-align: center;
 }
+
+/* Card */
+.card {
+    width: 360px;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card img {
+    height: 320px;
+}
+
+.card .footer-card {
+    padding: 0.8rem;
+    width: 100%;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card .footer-card p {
+    margin-bottom: 0.5rem;
+}
+
+.card .footer-card p:first-child {
+    font-weight: bold;
+}
+
+.card .footer-card a {
+    background-color: #a97c50;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    padding: 0.5em 1em;
+    align-self: center;
+    transition: 400ms ease-in all;
+}
+
+.card .footer-card a:hover {
+    background-color: #664626;
+}
