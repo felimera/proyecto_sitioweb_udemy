@@ -293,7 +293,9 @@ header.transparente nav a:hover {
     margin-top: 100vh;
 }
 
-#pr {
+#pr,
+#legal,
+#cookies {
     display: block;
     margin-top: -90px;
     padding-bottom: 90px;
@@ -302,6 +304,10 @@ header.transparente nav a:hover {
 .fila {
     display: flex;
     padding: 2rem 1rem;
+}
+
+.fila.contacto {
+    margin-top: 80px;
 }
 
 .col-100 {
