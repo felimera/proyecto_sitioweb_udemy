@@ -580,6 +580,15 @@ footer .copyrigth {
 }
 
 /* Card */
+
+.fila.grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    grid-gap: 1.5rem;
+    justify-content: center;
+}
+
 .card {
     width: 360px;
     border-radius: 0.5rem;
