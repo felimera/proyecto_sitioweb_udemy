@@ -43,10 +43,17 @@ function updateArrowsState(e) {
   } else {
     leftArrow.style.display = "none";
   }
-  
+
   if (couter === slides.length - 1) {
     rigthArrow.style.display = "none";
   } else {
     rigthArrow.style.display = "flex";
   }
+
+  rigthArrow.style.pointerEvents = "none";
+  leftArrow.style.pointerEvents = "none";
+  setTimeout(() => {
+    rigthArrow.style.pointerEvents = "auto";
+    leftArrow.style.pointerEvents = "auto";
+  }, 900);
 }

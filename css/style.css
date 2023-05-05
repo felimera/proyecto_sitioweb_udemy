@@ -701,6 +701,7 @@ footer .copyrigth {
     top: 0;
     left: 0;
     width: 100%;
+    transition: 900ms all ease-in-out;
 }
 
 .carousel .slide img {
