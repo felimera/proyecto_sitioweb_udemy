@@ -66,6 +66,9 @@
                 <img class="m-r-small" src="img/contract.svg" alt="Icono de contrato">
                 Entrega inmediata
             </p>
+            <p class="flex-end">
+                <button onclick="openModal()">Ver imagenes</button>
+            </p>
         </div>
         <div class="col-50"></div>
     </div>
@@ -130,6 +133,40 @@
             <p class="copyrigth m-t">&copy; Imperial Real State All rigths reserved</p>
         </div>
     </footer>
+    <div class="overlay"></div>
+    <div class="carousel">
+        <div class="slide">
+            <img src="img/thumb2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb8.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/thumb9.jpg" alt="">
+        </div>
+        <div class="x-modal" onclick="closeModal()">
+            <img src="img/x.svg" alt="">
+        </div>
+        <div class="left-arrow" onclick="prevSlide()">
+            <img src="img/left.svg" alt="">
+        </div>
+        <div class="rigth-arrow" onclick="nextSlide()">
+            <img src="img/right.svg" alt="">
+        </div>
+    </div>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
