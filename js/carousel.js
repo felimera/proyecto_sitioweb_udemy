@@ -1,11 +1,22 @@
 let overlay = document.querySelector(".overlay");
 let carousel = document.querySelector(".carousel");
 let slides = document.querySelectorAll(".carousel .slide");
+let images = document.querySelectorAll(".carousel .slide img");
 let leftArrow = document.querySelector(".left-arrow");
 let rigthArrow = document.querySelector(".rigth-arrow");
 let couter = 0;
 
 function loadSlides() {
+  carousel.style.height = "90vh";
+  let heightCarousel = carousel.offsetHeight;
+
+  for (i = 0; i < images.length; i++) {
+    if (images[i].offsetHeight < heightCarousel) {
+      heightCarousel = images[i].offsetHeight;
+    }
+  }
+  carousel.style.height = heightCarousel + "px";
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.left = carousel.offsetWidth * -i + "px";
   }
